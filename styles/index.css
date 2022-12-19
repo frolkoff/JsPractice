@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url("../img/jpeg/background..jpg") no-repeat;
+    background-size: cover;
+}
+
+        /*HEADER*/
+.HeaderElements {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 42px;
+    padding-left: 166px;
+    border-bottom: 2px solid #585d68;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 32px;
+    left: 200px;
+    padding-bottom: 36px;
+}
+.logo a {
+}
+.Icon {
+    margin-right: 10px;
+}
+.Text {
+    padding-top: 8px;
+
+}
+
+.Contacts {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 46px;
+    padding-bottom: 36px;
+    padding-right: 176px;
+}
+.Contacts a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+        /*HEADER CONTENT*/
+.content {
+    display: flex;
+    justify-content: center;
+}
+.header-content {
+    padding-top: 80px;
+    text-align: center;
+    width: 1100px;
+}
+.header-content__title {
+    font-family: Arial, sans-serif;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.header-content__subtitle {
+    padding-top: 16px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    text-align: center;
+    padding-bottom: 40px;
+    max-width: 594px;
+    padding-left: 254px;
+}
+button {
+    padding: 26px 58px;
+    background: #34C759;
+    border-radius: 43px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    color: #1A1A1A;
+    text-transform: uppercase;
+}
