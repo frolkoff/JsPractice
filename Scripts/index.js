@@ -61,3 +61,103 @@
 // clothes.sizes.mass++;
 //
 // alert(clone.sizes.mass);
+
+
+// let user = {
+//     name: 'alex',
+//     age: 18
+// };
+//
+// user.Sayhi = function () {
+//     alert('Hi')
+// };
+//
+// user.Sayhi();
+
+
+// let user = {
+//     name: 'alex',
+//     age: 18
+// };
+//
+// function Hi() {
+//     alert('Hi')
+// }
+//
+// user.Hi = Hi;
+//
+// user.Hi ();
+
+
+// user = {
+//     sayhi: function () {     //Стандартная запись как ключ и свойство
+//         alert('hi');
+//     }
+// };
+//
+// user.sayhi()
+
+
+// user = {
+//     sayhi() { alert('hi'); }      //Сокращенная запись как функция, но в объекте --> Метод объекта
+// };
+//
+// user.sayhi()
+
+
+// let user = {
+//     name: "John",
+//     age: 30,
+//
+//     sayHi() {
+//         alert( this.name ); // приведёт к ошибке
+//     }
+//
+// };
+//
+//
+// let admin = user;
+// user = null; // перезапишем переменную для наглядности, теперь она не хранит ссылку на объект.
+//
+// alert(admin.name)
+// admin.sayHi();
+
+
+
+// let user = { name: "John" };
+// let admin = { name: "Admin" };
+//
+// function sayHi() {
+//     alert( this.name );
+// }
+//
+// // используем одну и ту же функцию в двух объектах
+// user.f = sayHi;
+// admin.f = sayHi;
+//
+// // эти вызовы имеют  разное значение this
+// // "this" внутри функции - это объект "перед точкой"
+// user.f(); // John  (this == user)
+// admin.f(); // Admin  (this == admin)
+//
+// admin['f'](); // Admin (нет разницы между использованием точки или квадратных скобок для доступа к объекту)
+
+
+// let cals = {
+//     sum() {
+//         return this.a + this.b;
+//     },
+//     mul() {
+//         return this.a * this.b;
+//     },
+//     read() {
+//         this.a = +prompt('a?', 0);
+//         this.b = +prompt('b?', 0);
+//     }
+// };
+//
+// cals.read()
+//
+// alert(cals.sum())
+// alert(cals.mul())
+
