@@ -161,3 +161,31 @@
 // alert(cals.sum())
 // alert(cals.mul())
 
+
+let stair = {
+    step: 0,
+    step_up() {
+        this.step++;
+    },
+    step_down() {
+        this.step--;
+    },
+    step_counter() {
+        alert(this.step);
+    }
+}
+
+stair.step_up();
+stair.step_up();
+stair.step_up();
+stair.step_up();
+stair.step_up();
+stair.step_up();
+
+stair.step_down();
+
+stair.step_counter();
+
+
+
+
