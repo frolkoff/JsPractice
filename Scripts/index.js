@@ -304,6 +304,59 @@
 // alert(extractCurrencyValue(a));
 
 
+// let names = [
+//     "Mark",
+//     "Alex",
+//     "Dima",
+//     "Sasha",
+//     "Katya",
+//     "Kirill",
+// ];
+//
+// console.log( names.push() );
+// console.log( names.pop() );
+// // console.log( names.at(-1) );
+// console.log( names[names.length - 1] );
+
+
+
+// let a = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ];
+//
+// console.log(a[1][0])
+
+
+// let arr = ["arr", "abb", "app",];
+//
+// for ( let i = 0; i < arr.length; i++) {
+//     alert(arr[i]);
+// };
+
+
+// let arr = [1, 2, 3, 4, 5];
+//
+// arr.splice( 0, 0, 3, 2);
+//
+// console.log( arr )
+
+
+// let conc = [1, 2];
+//
+// conc.forEach(alert)
+
+
+let l = ["123", "1234", "1"].map(item => item.length);
+
+alert(l);
+
+
+
+
+
+
 
 
 
