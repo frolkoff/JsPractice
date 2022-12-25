@@ -162,29 +162,155 @@
 // alert(cals.mul())
 
 
-let stair = {
-    step: 0,
-    step_up() {
-        this.step++;
-    },
-    step_down() {
-        this.step--;
-    },
-    step_counter() {
-        alert(this.step);
-    }
-}
+// let stair = {
+//     step: 0,
+//     step_up() {
+//         this.step++;
+//     },
+//     step_down() {
+//         this.step--;
+//     },
+//     step_counter() {
+//         alert(this.step);
+//     }
+// }
+//
+// stair.step_up();
+// stair.step_up();
+// stair.step_up();
+// stair.step_up();
+// stair.step_up();
+// stair.step_up();
+//
+// stair.step_down();
+//
+// stair.step_counter();
 
-stair.step_up();
-stair.step_up();
-stair.step_up();
-stair.step_up();
-stair.step_up();
-stair.step_up();
 
-stair.step_down();
+// function User(name) {
+//     this.name = name;
+//     this.isAdmin = false;
+// }
+//
+// let user = new User("Jack");
+//
+// alert(user.name); // Jack
+// alert(user.isAdmin); // false
 
-stair.step_counter();
+
+// let user = {};
+//
+// alert(user?.address);
+
+
+// let name = Symbol("id");
+//
+// alert(name.toString(name));
+            //ИЛИ МЫ МОЖЕМ ОБРРАТТИТЬСЯ К ОПИСАНИЮ//
+// let id = Symbol('id');
+//
+// alert(id.description);
+
+
+
+
+
+// let user = {
+//     name: 'mark',
+//     age: 18,
+//     Sayhi: function() {
+//         alert('hi');
+//     }
+// };
+//
+//
+//
+// user.birth = 13;
+//
+// alert(user.birth)
+// user.Sayhi();
+
+
+// let str = "bbbbb";
+//
+// alert(str.toUpperCase(str))
+
+// let num = 1.22222;
+//
+// alert(num.toFixed(1));
+
+
+// let min = 1e-2;
+// console.log(min)
+
+
+// function readNumber() {
+//     let num;
+//
+//     do {
+//         num = prompt("Введите число", 0);
+//     } while ( !isFinite(num) );
+//
+//     if (num === null || num === '') return null;
+//
+//     return +num;
+// }
+//
+// alert(`n: ${readNumber()}`)
+
+
+// let i = 0;
+// while (i != 10) {
+//     i += 0.2;
+// }
+
+
+
+// let a = ' привет, скажи \' 4ina \' ';
+// //
+// // console.log(a)
+
+
+// let a = 'asada';
+
+// console.log(a.length);
+//
+// console.log(a.length - 1);
+// console.log(a.at(-1));
+//
+// console.log(a[1]);
+// console.log(a.at(1));
+//
+// console.log('Перебор строки');
+//
+// for (let char of a) {
+//     console.log(char);
+// };
+
+// alert(a.codePointAt(1));
+// alert( a.slice(4) );
+
+
+// alert( String.fromCodePoint(90, 100, 12, 10, 9, 11, 123, 1) );
+
+
+// function extractCurrencyValue(str) {
+//     return +str.slice(1);
+// }
+//
+//
+// let a = '$1000';
+//
+// alert(extractCurrencyValue(a));
+
+
+
+
+
+
+
+
+
 
 
 
